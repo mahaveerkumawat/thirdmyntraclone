@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: inherit;
+    box-sizing: border-box;
+    list-style: none;
+}
+header{
+    padding: 20px;
+    /* background-color: aqua; */
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    display: flex;
+    align-items: center;
+}
+.for_logo{
+    width: 53px;
+    height: 40px;
+    background: url('https://constant.myntassets.com/web/assets/img/MyntraWebSprite_27_01_2021.png');
+    background-size: 1404px 105px;
+    background-position: -462px 0;
+    margin-left: 43px;
+}
+.for_nav ul{
+    display: flex;
+    gap: 30px;
+}
+.for_nav ul li a{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.for_nav{
+    margin-left: 70px;
+    color: #282c3f;
+    font-weight: bold;
+}
+.for_inputbox{
+    width: 480px;
+    height: 40px;
+    background-color: #d3d3d3;
+    margin-left: 100px;
+    display: flex;
+    border-radius: 5px;
+}
+.for_icon{
+    height: 100%;
+    width: 40px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.for_main_input{
+    height: 100%;
+    width: 440px;
+    /* background-color: blue; */
+}
+.for_main_input input{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+.for_main_icons{
+    width: 194px;
+    height: 40px;
+    /* background-color: red; */
+    margin-left: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+}
+.main_icon{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    align-items: center;
+}
